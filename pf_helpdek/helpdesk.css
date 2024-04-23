@@ -1,0 +1,18 @@
+A.menu {text-decoration:none; color:black;font: 12px Arial;}
+A.pw {font: 10px Arial;}
+BODY {font: 12px Arial;}
+TD {font: 12px Arial;}
+INPUT, SELECT, OPTION, TEXTAREA {font-size: 12px;}
+INPUT.popup {font-size: 10px; height: 12px}
+
+TD.hand {cursor: hand;}
+
+#men {
+BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; BORDER-LEFT: 2px outset; BORDER-BOTTOM: 2px outset; POSITION: absolute; TOP: 0px
+}
+#men A {
+PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 4px; MARGIN: 1px 1px 1px 16px; FONT: 12px sans-serif; WIDTH: 100%; PADDING-TOP: 3px; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.ico {
+BORDER-RIGHT: medium none; BORDER-TOP: medium none; FLOAT: left; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
