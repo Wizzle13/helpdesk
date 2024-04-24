@@ -6,3 +6,8 @@
 - Installed npm
 - Installed express and express-handlebars
 - setup file structure
+
+#### 4-24-2024
+- Added index.js
+- added starter Handlebar files
+- add basic Scss files
