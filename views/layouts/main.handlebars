@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Help Desk</title>
+    <link rel="stylesheet" href="/dist/style.css" type="text/css">
 </head>
 <body>
-    {{{body}}}
+    <header>
+        <table border=1 width=600 align=center bgcolor=white>
+            <tr>
+                <td align=center width=125><a href='/'><img src="../../public/images/pflogo.gif" border=0></a></td>
+                <td VAlign=top>
+                    DATE Stamp
+                    <p> Hello -- Name --</p>
+                </td>
+            </tr>
+        </table>    
+    </header>
+    <main>
+        <nav>
+<table border=0 cellpadding=1 cellspacing=1 width=125 bordercolordark=white bordercolorlight=white bordercolor=white>
+
+<tr><td bgcolor=#8DC2D4 width=6 id=menu_home>
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_home').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_home').style.backgroundColor = '#8DC2D4';" style='background-color: white;' class = 'hand' onClick=location.href='/main.asp'><a class=menu href="/main.asp">Home</a></td></tr>
+<tr><td colspan=2 style='background-color: white;'>&nbsp;</td></tr>
+<BR>
+{{!-- manager - worker --}}
+<tr><td colspan=2 style='background-color: white;'><B>Admin Tools</B></tr></td>
+	<tr><td bgcolor=#8DC2D4 width=6 border=1 id="menu_add">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_add').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_add').style.backgroundColor = '#8DC2D4';" class = 'hand' onClick=location.href='/add.asp'><a class=menu href="/Add.asp">Add Ticket</a></td></tr>
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_sap">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_sap').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_sap').style.backgroundColor = '#8DC2D4';" style='background-color: white;' class = 'hand' onClick=location.href='/saptickets.asp'><a class=menu href="/saptickets.asp">SAP Tickets</a></td></tr>
+	<tr><td bgcolor=#8DC2D4 width=6 id=menu_search>
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_search').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_search').style.backgroundColor = '#8DC2D4';" style='background-color: white;' class = 'hand' onClick=location.href='/search.asp'><a class=menu href="/search.asp">Search Tools</a></td></tr>
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_maint">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_maint').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_maint').style.backgroundColor = '#8DC2D4';" style='background-color: white;' class = 'hand' onClick=location.href='/maintenance/index.asp'><a class=menu href="/Maintenance/index.asp">Maintenance</a></td></tr>
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_reports">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_reports').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_reports').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/reports'><a class=menu href="/Reports">Reports</a></td></tr>
+{{!-- manager administrator --}}
+<td bgcolor=#8DC2D4 width=6 id="menu_manuser"></td>
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_manuser').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_manuser').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/manageusers.asp'><a class=menu href="/ManageUsers.asp">Manage Users</a></td></tr>
+{{!-- administrator --}}
+<td bgcolor=#8DC2D4 width=6 id="menu_junkies">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_junkies').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_junkies').style.backgroundColor = '#8DC2D4';"  style='background-color: white'; class = 'hand' onClick=location.href='/junkies.asp'><a class=menu href="/Junkies.asp">Junkies</a></td></tr>
+	
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_whoson">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_whoson').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_whoson').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/whoson.asp'><a class=menu href="/WhosOn.asp">Who's On?</a></td></tr>
+	
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_laston">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_laston').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_laston').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/laston.asp'><a class=menu href="/LastOn.asp">Last On</a></td></tr>
+{{!-- it --}}
+<td bgcolor=#8DC2D4 width=6 id="menu_secure_links">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_secure_links').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_secure_links').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/securelinks.asp'><a class=menu href="/securelinks.asp">Secure Links</a></td></tr>
+
+	<tr><td bgcolor=#8DC2D4 width=6 id="menu_call_back">
+	<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_call_back').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_call_back').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/CallBack.asp'><a class=menu href="/CallBack.asp">Call Backs</a></td></tr>
+{{!-- user --}}
+<td colspan=2 style='background-color: white;'><P><B>User Tools</B></td>
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_open">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_open').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_open').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/open.asp'><a class=menu href="/Open.asp">Open Ticket</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_sapjob">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_sapjob').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_sapjob').style.backgroundColor = '#8DC2D4';" style='background-color: white;' class = 'hand' onClick=location.href='/sapjob/index.asp'><a class=menu href="/Sapjob/index.asp">SAP&nbsp;Job&nbsp;Request</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_viewticket">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_viewticket').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_viewticket').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/UserSearch.asp'><a class=menu href="/UserSearch.asp">Search Ticket</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_pref">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_pref').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_pref').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/pref.asp'><a class=menu href="/Pref.asp">User Info</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_newhire">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_newhire').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_newhire').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/newhire/index.asp'><a class=menu href="/NewHire/index.asp">New Hire</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_password">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_password').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_password').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/password.asp'><a class=menu href="/password.asp">Change&nbsp;Password</a>&nbsp;</td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_help">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_help').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_help').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/help.asp'><a class=menu href="/help.asp">HELP!</a></td></tr>
+
+<tr><td bgcolor=#8DC2D4 width=6 id="menu_logoff">
+<td onMouseOver="this.style.backgroundColor='#8DC2D4';document.getElementById('menu_logoff').style.backgroundColor = '#015772';" onMouseOut="this.style.backgroundColor='white'; document.getElementById('menu_logoff').style.backgroundColor = '#8DC2D4';"  style='background-color: white;' class = 'hand' onClick=location.href='/logoff.asp'><a class=menu href="/logoff.asp">Logoff</a></td></tr>
+
+</table>
+        </nav>
+        <div>
+            {{{body}}}
+        </div>
+    </main>
+    
 </body>
 </html>

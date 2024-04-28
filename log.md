@@ -11,3 +11,7 @@
 - Added index.js
 - added starter Handlebar files
 - add basic Scss files
+
+#### 4-28-2024
+- moved _head.asp into main
+- moved _nav.asp into main
